@@ -1,0 +1,24 @@
+.name{
+    float: left;
+}
+.notification{
+    float: left;
+}
+.full{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#search{
+    height: 25px;
+    width: 400px;
+    border-radius: 10px;
+    border:none;
+    /* background-color: whitesmoke; */
+    
+}
+.icon {
+    color: white; /* Change the color to red (you can use any valid CSS color) */
+  }
+  

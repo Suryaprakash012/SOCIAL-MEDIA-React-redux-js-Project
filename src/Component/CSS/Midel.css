@@ -1,0 +1,87 @@
+.Midel{
+    flex: 4;
+}
+.head{
+    width: 90%;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    border-color: yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #ccc; /* with blur shadow*/
+    background-color: aliceblue;
+
+
+}
+
+#midelsearch{
+    height: 25px;
+    width: 400px;
+    border-radius: 10px;
+    border:none;
+    /* background-color: whitesmoke; */
+    float: left;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.ss{
+    margin-left: 10px;
+    height: 30px;
+}
+.blue{
+    color: blue;
+}
+.bold{
+margin-top: 10px;
+margin-right: 20px;
+}
+.red{
+    color: red;
+}
+.postview{
+    height: 650px;
+    width: 50%;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #ccc; /* with blur shadow*/
+    padding: 20px;
+}
+.post-image{
+    width: 432px;
+    height: 432px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.like-button {
+    display: inline-block; /* Display the LikeButton and title inline */
+    
+  }
+  .post-content{
+    width: 100%;
+    display: inline-block; /* Display the LikeButton and title inline */
+
+  }
+.title-vertical{
+    margin-top: 5px;
+}  
+.postfoder{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(215, 237, 230);
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+.location1{
+    font-size: 15px;
+}
+.accountpic{
+    float: left;
+}

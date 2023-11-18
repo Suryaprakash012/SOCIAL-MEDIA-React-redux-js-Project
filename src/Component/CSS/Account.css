@@ -1,0 +1,19 @@
+.aclogin{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 190px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 2px #ccc; /* with blur shadow*/
+
+}
+.accountbox{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 00px;
+    padding: 20px;
+}
+.accountinput{
+    width: 100%;
+    border-bottom:20px red;
+}

@@ -1,0 +1,56 @@
+.Sidebar{
+    flex: 1;
+    overflow-y: scroll;
+    position: sticky;
+
+}
+.sidebarwarp{
+    padding: 20px;
+}
+.sidebaritem{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.sidebarlistitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sidebaricon{
+    margin-right: 15px;
+}
+.sidebarfrientlist{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.sidebarfrient{
+    display: flex; /* Display items vertically */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px; /* Add spacing between items */
+}
+.frientimg{
+    width: 40px; /* Set a width for the images */
+    height: 40px; /* Set a height for the images */
+    border-radius: 50%; /* Make the images circular */
+    margin-right: 10px; /* Add spacing between the image and text */
+}
+.frientname {
+    font-size: 14px; /* Adjust font size as needed */
+  }
+.circular-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  .post-content {
+    display: flex;
+    align-items: center;
+  }
+  .title-vertical{
+    font-size: 10px;
+  }
+  

@@ -1,0 +1,15 @@
+/* LikeButton.css */
+.like-button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-button.liked {
+    background-color: red;
+  }
+  .heart{
+    float: left;
+  }
