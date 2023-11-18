@@ -16,7 +16,7 @@ const Sidebar = () => {
     <article key={post.id} className="post-container">
       <div className="post-content">
         {post.image && <img src={post.image} alt={`Profile Image of ${post.username}`} className="circular-image" />}
-        <h1 className="title-vertical">{post.username}</h1>
+        <h1 className="title-vertical1">{post.username}</h1>
       </div>
     </article>
   ));
