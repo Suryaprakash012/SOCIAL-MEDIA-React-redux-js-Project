@@ -17,7 +17,7 @@ const Sidebar = () => {
       <div className="post-content">
         {post.image && <img src={post.image} alt={`Profile Image of ${post.username}`} className="circular-image" />}
         <h1 className="title-vertical1">{post.username}</h1>
-      </div>
+      </div><br />
     </article>
   ));
 
@@ -46,13 +46,15 @@ const Sidebar = () => {
           <li className="sidebarlistitem">
             <MarkAsUnreadIcon className="sidebaricon" />
             <NavLink to='/post' activeClassName="active">
-              <span>post</span>
+              <span>POST</span>
             </NavLink>
           </li>
         </ul>
         <hr className="line" />
         <ul className="sidebarfrientlist">
-          {postElements}
+          <p>ONLINE</p>
+          <hr />
+          {postElements} 
         </ul>
       </div>
     </div>

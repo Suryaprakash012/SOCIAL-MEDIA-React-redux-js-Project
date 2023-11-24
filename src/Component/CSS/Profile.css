@@ -5,6 +5,7 @@
 .profilebar{
     float: left;
     width: 400px;
+    height: 100%;
 }
 .rightbar{
     margin-left: 1207px;

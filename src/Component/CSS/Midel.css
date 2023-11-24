@@ -60,10 +60,11 @@ margin-right: 20px;
     padding: 20px;
 }
 .post-image{
-    width: 432px;
+    width: 100%;
     height: 432px;
     object-fit: cover;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     margin-top: 0px;
     float: left;
 }
@@ -77,8 +78,9 @@ margin-right: 20px;
     width: 100%;
     height: 30px;
     background-color: rgb(63, 175, 140);
-    padding-left: 10px;
-    border-radius: 10px;
+   
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     
 }
 .title-vertical{

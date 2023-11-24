@@ -50,11 +50,12 @@ const Midel = () => {
         <div className="post-content">
           {post.image && <img src={post.image} alt="Image" className="post-image" />}
           </div>
-          <h1 className="titles">{post.title}</h1>
-          <div className="title-like-container">
           <div className='postfoder'>
             <LikeButton className="like-button" />
             </div>
+          <h1 className="titles">{post.title}</h1>
+          <div className="title-like-container">
+         
            
             
           

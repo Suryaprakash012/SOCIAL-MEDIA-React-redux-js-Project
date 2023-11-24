@@ -1,5 +1,5 @@
 .postsidebar{
-    width: 30%;
+    width: 20%;
     float: left;
     
 
@@ -7,7 +7,7 @@
 .postbar{
     width: 100%;
     /* background-color:rgba(18, 12, 5, 0.345); */
-    margin-left: 450px;
+    margin-left: 350px;
     height: 100%;position:fixed;
     
 }

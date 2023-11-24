@@ -27,14 +27,14 @@ const Profile = () => {
 
   const profileElement = latestAccountPost ? (
     <article key={latestAccountPost.id} className="post-container">
-      <div className="post-content">
+      <div className="profile-content">
         <div className="profiletop">
           {profileImageElement1}
           <p className='profiletopviews'> {latestAccountPost.about} <hr /> </p>
           
-          <div className="profileicon"><EditNoteIcon className='icons'></EditNoteIcon>  </div>
+          <div className="profileicon1"><EditNoteIcon className='icons'></EditNoteIcon>  </div>
           
-        </div><br /><br />
+        </div><br />
         <div className="profileviewdiv">
           <label className='label'>NAME</label><br />
           <p className='profileviews'> {latestAccountPost.names} <hr /> </p>
