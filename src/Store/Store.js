@@ -6,7 +6,8 @@ import LikeSlice from "../Reducer/LikeSlice";
 export const store = configureStore({
   reducer: {
     post: postReducer, 
-    Account : Accountreducer,
-    likes : LikeSlice
+    Account: Accountreducer,
+    likes: LikeSlice,
   }
 });
+

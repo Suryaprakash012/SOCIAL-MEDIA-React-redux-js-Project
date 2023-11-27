@@ -5,22 +5,28 @@ const likeSlice = createSlice({
   name: 'likes',
   initialState: {
     count: 0,
-    isLiked: false, // Add isLiked state
+    isLiked: false,
+    messages: [],
   },
   reducers: {
     increment: (state) => {
       state.count += 1;
-      state.isLiked = true; // Set isLiked to true when liked
+      state.isLiked = true;
     },
     decrement: (state) => {
       state.count -= 1;
-      state.isLiked = false; // Set isLiked to false when unliked
+      state.isLiked = false;
     },
     toggleLike: (state) => {
-      state.isLiked = !state.isLiked; // Toggle the isLiked state
+      state.isLiked = !state.isLiked;
+    },
+    sendMessage: (state, action) => {
+      state.messages.push(action.payload);
     },
   },
 });
 
-export const { increment, decrement, toggleLike } = likeSlice.actions;
+export const { increment, decrement, toggleLike, sendMessage } = likeSlice.actions;
+export const selectAllLikes = (state) => state.likes.messages; // Adjust selector based on your actual structure
 export default likeSlice.reducer;
+export const selectAllaccount = (state) => state.account.accounts;

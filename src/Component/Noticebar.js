@@ -4,8 +4,7 @@ import './CSS/Rightbar.css';
 import { useSelector } from 'react-redux';
 import { selectAllLikes} from '../Reducer/LikeSlice'
 import { selectAllaccount } from '../Reducer/Accountreducer';
-import Noticebar from '../Component/Noticebar';
-const Rightbar = () => {
+const Noticebar = () => {
   const likes = useSelector(selectAllLikes);
   const posts = useSelector(selectAllaccount);
 
@@ -20,8 +19,10 @@ const Rightbar = () => {
 
   return (
     <div className='Rightbar'>
+      <h1>dgbrb</h1>
       <div className="follow">
-        {postElements}
+        {postElements }
+      
         <div>
           <ul>
             {likes && likes.map((like, index) => (
@@ -30,9 +31,8 @@ const Rightbar = () => {
           </ul>
         </div>
       </div>
-      <Noticebar/>
     </div>
   );
 };
 
-export default Rightbar;
+export default Noticebar;

@@ -7,8 +7,8 @@ import ReplyIcon from '@mui/icons-material/Reply';
 import NearMeIcon from '@mui/icons-material/NearMe';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import { selectAllaccount } from '../Reducer/Accountreducer';
-import LikeButton from '../Support/LikeButton';
-
+import LikeButton from '../Support/LikeButton';  // Import LikeButton once
+import Noticebar from './Noticebar';
 const Midel = () => {
   const posts = useSelector((state) => state.post);
   const account = useSelector(selectAllaccount);
@@ -52,7 +52,7 @@ const Midel = () => {
           </div>
           <div className='postfoder'>
             <LikeButton className="like-button" />
-            </div>
+          </div>
           <h1 className="titles">{post.title}</h1>
           <div className="title-like-container">
          

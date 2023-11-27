@@ -15,6 +15,5 @@ const accountSlice = createSlice({
 });
 
 export const selectAllaccount = (state) => state.Account;
-
 export const { addaccount } = accountSlice.actions;
 export default accountSlice.reducer;

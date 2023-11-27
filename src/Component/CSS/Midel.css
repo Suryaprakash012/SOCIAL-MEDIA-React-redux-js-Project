@@ -1,5 +1,6 @@
 .Midel{
     flex: 4;
+    overflow-y: scroll;
 }
 .head{
     width: 90%;

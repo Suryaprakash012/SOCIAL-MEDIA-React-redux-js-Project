@@ -8,7 +8,7 @@ import Testfile from './Component/Testfile';
 import Accountlogin from './Component/Accountlogin';
 import Profile from './Component/Profile';
 import Commentbox from './Additonlalcom/Commentbox';
-
+import Notification from './Component/Notification';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
           <Route path='/Post' element={<Post />} />
           <Route path='/Accountlogin' element={<Accountlogin />} />
           <Route path='/profile' element={<Profile />} />
+          <Route path='/Notification' element={<Notification/>} />
 
 
         </Routes>

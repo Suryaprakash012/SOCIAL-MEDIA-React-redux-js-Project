@@ -16,7 +16,7 @@ const Navbar = () => {
           <SearchIcon className="icon" /> {/* Apply a CSS class to the icon */}
           <input type="search" name="" id="search" placeholder='Search' />
         </div>
-          <NavLink to='/Accountlogin'>
+          <NavLink to='/Notification'>
         <div className="notification">
           <CircleNotificationsIcon className="icon" /> {/* Apply a CSS class to the icon */}
           <span className=''>1</span>
