@@ -1,7 +1,8 @@
 .postsidebar{
-    width: 20%;
+    width:234px;
     float: left;
-    
+    height: 700px;
+    background-color: black;
 
 }
 .postbar{

@@ -1,0 +1,37 @@
+/* Add styles for the likes */
+.like-item {
+    border: none;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+
+  }
+  
+  .likes-container {
+    margin-top: 20px; 
+    height: 40px;
+    background-color: rgb(21, 114, 114);
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .likes-list {
+    list-style-type: none; /* Remove bullet points from the likes list */
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .noticfull{
+    flex: 1.5;
+
+}
+  

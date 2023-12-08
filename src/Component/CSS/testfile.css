@@ -7,4 +7,22 @@
     object-fit: cover;
     margin-right: 15px;
   }
+  .followbtn{
+    border: solid;
+  }
+  /* LikeButton.css */
+/* LikeButton.css */
+.followbtn {
+  color:black;
+  border: 2px inset black; /* Set border color to black */
+  cursor: pointer;
+  font-style: bold;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+
+
   

@@ -9,6 +9,7 @@ import Accountlogin from './Component/Accountlogin';
 import Profile from './Component/Profile';
 import Commentbox from './Additonlalcom/Commentbox';
 import Notification from './Component/Notification';
+// import Form from './Component/Form'
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,7 @@ function App() {
           <Route path='/Accountlogin' element={<Accountlogin />} />
           <Route path='/profile' element={<Profile />} />
           <Route path='/Notification' element={<Notification/>} />
-
-
+          {/* <Route path  ='/form' element={<Form/>}/> */}
         </Routes>
       </BrowserRouter>
       {/* <Accountlogin/>

@@ -64,9 +64,9 @@ const Accountlogin = () => {
   };
 
   return (
-    <div>
+    <div >
         <div><Navbar/></div>
-      <div className="sidebar"><Sidebar/></div>
+      <div className="accountsidebar"><Sidebar/></div>
 
 
         <div>

@@ -59,7 +59,7 @@ const Profile = () => {
       <div className="div">
         <Navbar />
       </div>
-      <div className="sidebar">
+      <div className="profilesidebar">
         <Sidebar />
       </div>
       <div className="profilebar">

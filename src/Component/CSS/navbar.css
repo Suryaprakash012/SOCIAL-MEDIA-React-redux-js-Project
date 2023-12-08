@@ -1,24 +1,60 @@
-.name{
-    float: left;
-}
-.notification{
-    float: left;
-}
-.full{
-    height: 50px;
+/* navbar.css */
+
+.full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .bg-primary {
+    background-color: #007bff; /* Use your preferred primary color */
+    color: #fff; /* Set text color to white or an appropriate contrast */
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search {
     display: flex;
     align-items: center;
-    position: sticky;
-}
-#search{
-    height: 25px;
-    width: 400px;
-    border-radius: 10px;
-    border:none;
-    /* background-color: whitesmoke; */
-    
-}
-.icon {
-    color: white; /* Change the color to red (you can use any valid CSS color) */
   }
+  
+  .icon {
+    margin-right: 5px;
+    color: aliceblue;
+  }
+  
+  #search {
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .notification,
+  .person {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .notification:hover,
+  .person:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change the background color on hover */
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .dropdown {
+    margin-left: 10px;
+  }
+  .dropside{
+    width: 300px;
+  }
+  
+  /* Adjust the styles as needed based on your design preferences */
   

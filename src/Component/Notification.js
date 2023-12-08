@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Midel from './Midel'
-import Noticebar from './Noticebar'
+import Noticebar from '../Component/Noticebar'
 import Navbar from '../Component/Navbar'
 import '../Component/CSS/Notification.css'
 const Notification = () => {
@@ -9,7 +9,7 @@ const Notification = () => {
     
     <div>
         <Navbar/>
-        <div className="condainer">
+        <div className="condainers">
         <Sidebar/>
         <Midel/>
         <Noticebar/>

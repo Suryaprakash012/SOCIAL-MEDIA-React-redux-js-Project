@@ -73,6 +73,16 @@ margin-right: 20px;
     display: inline-block; /* Display the LikeButton and title inline */
     
   }
+  .accountdp-image {
+    width: 102px;
+    height:102px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 450px;
+    position: relative;
+    bottom: 30px;
+    box-shadow: 0 0 10px 12px #e0f0f0; /* with blur shadow*/
+  }
 
 
 .postfoder{
@@ -98,4 +108,18 @@ margin-right: 20px;
     object-fit: cover;
     margin-right: 15px;
     float: left;
+}
+.accountname{
+    width: 30%;
+    height: 20px;
+    float: left;
+    /* background-color: aquamarine; */
+
+}
+.location1{
+    height: 30px;
+    width: 350px;
+    align-items:center;
+    justify-content:first baseline;
+    display: flex;
 }

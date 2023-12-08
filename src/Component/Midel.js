@@ -9,6 +9,7 @@ import VideoCallIcon from '@mui/icons-material/VideoCall';
 import { selectAllaccount } from '../Reducer/Accountreducer';
 import LikeButton from '../Support/LikeButton';  // Import LikeButton once
 import Noticebar from './Noticebar';
+import Followup from '../Additonlalcom/Followup';
 const Midel = () => {
   const posts = useSelector((state) => state.post);
   const account = useSelector(selectAllaccount);
@@ -22,6 +23,12 @@ const Midel = () => {
       <img src={latestAccountPost.image} alt="Image" className="circular-image" />
     </article>
   ) : null;
+  const accountdp = latestAccountPost && latestAccountPost.image ? (
+    <article key={latestAccountPost.id}>
+      <img src={latestAccountPost.image} alt="Image" className="accountdp-image" />
+    </article>
+  ) : null;
+
 
 
   const postElement = latestAccountPost ? (
@@ -41,8 +48,9 @@ const Midel = () => {
       <div className="accountpic">
       {Account}
       </div>
-      <h1 className="location1">{postElement}</h1><br />
-      <p>{post.locations}</p>
+      <p className="accountname">{postElement}</p> <Followup/> <br />
+        <hr />
+      <p className='location1'>{post.locations}</p>
       
       
      
@@ -99,7 +107,11 @@ const Midel = () => {
             </i>
             POST
           </button>
+          
         </div>
+      </div>
+      <div>
+        {accountdp}
       </div>
       <div className="">
         {imagesWithAccount}

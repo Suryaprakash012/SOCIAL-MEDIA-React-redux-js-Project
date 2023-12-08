@@ -1,11 +1,14 @@
-.sidebar{
+.profilesidebar{
     float: left;
-    width: 20%;
+    width: 234px;
+    background-color: black;
+    height: 700px;
 }
 .profilebar{
     float: left;
     width: 400px;
     height: 100%;
+    padding-left: 40px;
 }
 .rightbar{
     margin-left: 1207px;

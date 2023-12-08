@@ -19,7 +19,7 @@ const Navbar = () => {
           <NavLink to='/Notification'>
         <div className="notification">
           <CircleNotificationsIcon className="icon" /> {/* Apply a CSS class to the icon */}
-          <span className=''>1</span>
+          <span className=''>1bdfb</span>
         </div>
         </NavLink>
         <NavLink to='/Post'>
@@ -28,14 +28,14 @@ const Navbar = () => {
 
         </div> 
         </NavLink>
-        <i className='glyphicon glyphicon-ok-circle'>f</i>
+        <i className='glyphicon glyphicon-ok-circle'></i>
 
         <div className="dropdown">
           <Dropdown data-bs-theme="dark" className='col-sm'>
             <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary" className="btn-sm">
               LOGOUT
             </Dropdown.Toggle>
-            <Dropdown.Menu>
+            <Dropdown.Menu className='dropside'>
               <Dropdown.Item href="#/action-1" active>
                 Action
               </Dropdown.Item>

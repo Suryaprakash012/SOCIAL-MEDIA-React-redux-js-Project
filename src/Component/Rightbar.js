@@ -13,6 +13,7 @@ const Rightbar = () => {
     <article key={post.id} className="post-container">
       <div className="post-content">
         {post.image && <img src={post.image} alt={`Profile Image of ${post.username}`} className="follow-image" />}
+        <p>{post.username}</p>
       </div>
       
     </article>
@@ -22,15 +23,8 @@ const Rightbar = () => {
     <div className='Rightbar'>
       <div className="follow">
         {postElements}
-        <div>
-          <ul>
-            {likes && likes.map((like, index) => (
-              <li key={index}>{like}</li>
-            ))}
-          </ul>
-        </div>
+        
       </div>
-      <Noticebar/>
     </div>
   );
 };

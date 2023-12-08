@@ -1,6 +1,6 @@
 .Rightbar{
     flex: 1.5;
-    background-color: rgb(192, 168, 140);
+    background-color: rgb(165, 99, 32);
 
 }
 .follow-image {
@@ -10,4 +10,4 @@
     object-fit: cover;
     margin-right: 15px;
     float: left;
-  }
+  } 

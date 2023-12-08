@@ -17,3 +17,14 @@
     width: 100%;
     border-bottom:20px red;
 }
+.accountsidebar{
+    float: left;
+    width: 234px;
+    height: 700px;
+    background-color: black;
+}
+/* .sidebar{
+    width:234px;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.995);
+} */
